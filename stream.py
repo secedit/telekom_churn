@@ -32,7 +32,7 @@ def main():
     st.markdown("<h3></h3>", unsafe_allow_html=True)
 
     # Setting Application sidebar default
-    image = Image.open('logoPyC.jpeg')
+    image = Image.open('PyCoders.jpeg')
     # add_selectbox = st.sidebar.selectbox(
     #     "How would you like to predict?", ("Online","Batch"))
     st.sidebar.info('This app is created to predict Customer Churn')
