@@ -11,7 +11,7 @@ def preprocess(df):
 
     from sklearn.preprocessing import StandardScaler
     sc = StandardScaler()
-    df2 = sc.fit_transform(df2)
+    df = sc.fit_transform(df)
 
 
-    return df2
+    return df
